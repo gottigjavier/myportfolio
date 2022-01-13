@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import { RouterModule } from '@angular/router';
-
 
 @NgModule({
   declarations: [
@@ -11,13 +9,11 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    HttpClientModule,
-    RouterModule
+    HttpClientModule
   ],
   exports: [
     HttpClientModule,
-    NotFoundComponent,
-    RouterModule
+    NotFoundComponent
   ]
 })
 export class SharedModule {

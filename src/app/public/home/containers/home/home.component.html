@@ -1,1 +1,9 @@
 <h2>Home del proyecto....</h2>
+
+<div *ngFor="let task of tasks">
+    <p class="borde">
+        {{task['text']}} <br/>
+        {{task['day']}} <br/>
+        {{task['reminder']}} <br/><br/>
+    </p>
+</div>

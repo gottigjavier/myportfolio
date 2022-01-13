@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "text": "Tarea uno",
+            "day": "enero 5, 2022",
+            "reminder": true
+        },
+        {
+            "id": 2,
+            "text": "Tarea numero 2",
+            "day": "enero 18, 2022",
+            "reminder": false
+        },
+        {
+            "id": 3,
+            "text": "Tarea super tarea numero 3",
+            "day": "febrero 15, 2022",
+            "reminder": false
+        },
+        {
+            "id": 4,
+            "text": "Tarea numero 4 la tarea",
+            "day": "Marzo 10, 2022",
+            "reminder": true
+        }
+    ]
+}

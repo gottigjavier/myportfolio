@@ -9,7 +9,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)], // imports: [RouterModule.forRoot(routes, {useHash: true})]
+  //imports: [RouterModule.forRoot(routes)], 
+  // imports: [RouterModule.forRoot(routes, {useHash: true})],
+  imports: [RouterModule.forRoot(routes, {urlUpdateStrategy: 'deferred'})],
+  // imports: [RouterModule.forRoot(routes, {onSameUrlNavigation: 'ignore'})], //onSameUrlNavigation?: 'reload' | 'ignore'
+  //imports: [RouterModule.forRoot(routes, {enableTracing: true})], // Solo para debugging
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
